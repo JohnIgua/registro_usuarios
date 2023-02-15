@@ -1,0 +1,26 @@
+:root {
+    --principal-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --color-button: rgb(0, 128, 124);
+    --aclara-button: rgb(58, 174, 171);
+}
+
+body {
+    margin: 0;
+    background-color: rgb(221, 238, 232);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}

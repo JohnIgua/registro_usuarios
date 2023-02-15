@@ -1,0 +1,52 @@
+.list{
+    display: grid;
+    gap: 30px;
+    grid-auto-rows: auto;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin: 30px auto;
+    max-width: 1100px;
+}
+
+.closeList{
+    display: none;
+}
+
+.userCard{
+    background-color: #caeedb;
+    color: black;
+    border-radius: 10px;
+    position: relative; 
+    width: 260px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(25, 162, 162);
+}
+
+.navBar{
+    display: flex;
+    orientation: horizontal;
+    justify-content: center;
+    align-items: baseline;
+    gap: 20px;
+    background-color: rgb(107, 177, 174);
+}
+
+.delete{
+    cursor: pointer;
+    background-color: rgb(237, 125, 125);
+    border: none;
+}
+
+.edit{
+    cursor: pointer;
+    border: none;
+}
+
+.btnNavBar{
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 5px;
+}
